@@ -1,0 +1,119 @@
+/* Container for the entire movie filter */
+.movie-filter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Container for search, rating, and category filters */
+.movie-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Search input field */
+.search-field {
+  margin-right:50px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  /* border: 1px solid #f0f0f0; */
+  /* border-radius: 5px; */
+}
+
+/* Dropdown for rating selection */
+.rating-dropdown {
+  margin-right: 50px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  /* border: 1px solid #f0f0f0; */
+  /* border-radius: 5px; */
+}
+
+/* Container for category dropdown */
+.category-dropdown {
+  position: relative;
+}
+
+/* Header for category dropdown */
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 8px;
+  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  width: 150px;
+}
+
+/* Options container for category dropdown */
+.category-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual option in category dropdown */
+.category-option {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+/* Checkbox input */
+.category-option input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Filtered results */
+.filtered-results {
+  /* display: flex; */
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+/* Individual movie item */
+.movie {
+  margin-bottom: 10px;
+}
+
+
+
+.rating-dropdown {
+  position: relative;
+}
+
+.rating-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  width: 400%;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.rating-option {
+  display: block;
+  padding: 5px;
+}
+
+.rating-option input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.star-rating {
+  font-size: 20px;
+  color: #ffd700; /* Yellow color for stars */
+}
