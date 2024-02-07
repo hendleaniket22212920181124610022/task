@@ -3,7 +3,7 @@
 
 
 import React, { useState } from 'react';
-import './styles.css'; // Import your CSS styles
+import './styles.css'; 
 
 function MovieFilter() {
   const [movies] = useState([
